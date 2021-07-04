@@ -1,0 +1,54 @@
+@media screen and (max-width: 768px){
+    #header form{
+        margin-right: 10px;
+        margin-top: 6px;
+    }
+    #header form input{
+        width: 25px;
+        height: 5px;
+    }
+    #menu-utama li{
+        padding: 8px 14px;
+    }
+    .artikel #judul-contact{
+        margin-bottom: 15px;
+    }
+    #myform{
+        display: block;
+    }
+    #myform input{
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 860px){
+    #wrapper{
+        width: 93%;
+        box-sizing: border-box;
+    }
+    #header{
+        width: 90%;
+        margin: 10px auto;
+    }
+    #daftar-artikel{
+        width: 89.5%;
+        margin: 0 auto;
+        float: none;
+    }
+    #sidebar{
+        width: 89.5%;
+        margin: 0 auto;
+        float: none;
+        padding: 8px 20px;
+    }
+}
+
+@media screen and (min-width: 861px) and (max-width: 1160px){
+	#wrapper{
+		width: 95%;
+	}
+	#header{
+		width: 99%;
+		margin: 20px auto;
+	}
+}
